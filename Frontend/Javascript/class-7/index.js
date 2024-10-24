@@ -90,9 +90,9 @@
 //to do :Make a user authentcation  system using call back
 //passeord validation
 
-const authentcation = (enterDate, callback) => {
-  return callback(enterDate);
-};
+// const authentcation = (enterDate, callback) => {
+//   return callback(enterDate);
+// };
 
 // const verify = (userData) => {
 //   let user = "user";
