@@ -11,6 +11,8 @@ function showSlide(index) {
   });
 }
 
+showSlide(currentSlide);
+
 function nextSlide() {
   currentSlide = (currentSlide + 1) % slides.length;
   showSlide(currentSlide);
