@@ -1,0 +1,21 @@
+#notification {
+    display: none;
+    align-items: center;
+    position: fixed; 
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: #EE82EE; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 10px;
+}

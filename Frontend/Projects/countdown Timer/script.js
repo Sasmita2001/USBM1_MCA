@@ -17,7 +17,6 @@ function startTimer() {
     document.getElementById("timerDisplay").innerText = time;
 
     if (time < 0) {
-      // Check for less than 0
       clearInterval(timer);
       alert("Time Over.....");
     }
